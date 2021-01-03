@@ -246,6 +246,103 @@ padding: 20px;
     color: white;
     padding: 10px;
 }
+/* feature and docs for common */
+.common-design h1{
+    font-size: 4rem;
+    color: #fff;
+
+}
+.common-design p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+/* feature sub box */
+.features-sub-box h1{
+    color: #333;
+    font-size: 32px;
+}
+.features-sub-box p{
+    color: #333;
+    font-size: 16px;
+}
+/* featuers-container */
+.features-container{
+    background-color: #F4F4F4;
+}
+/* showcase */
+.showcase i{
+    font-size: 3.2rem;
+    margin-right: 20px;
+}
+.showcase p{
+    margin: 0;
+    padding: 0;
+
+}
+/* docs section */
+.links h3{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.links ul li{
+list-style: none;
+font-size: 17px;
+padding-bottom: 5px;
+margin-bottom: 5px;
+border-bottom: 1px #ccc solid;
+}
+.links ul li a{
+    font-size: 17px;
+    color: #333;
+    text-decoration: none;
+
+}
+.docs-second-container h3{
+    font-weight: 300;
+    font-size: 30px;
+    color: #333;
+    margin: 10px 0;
+}
+.docs-second-container p{
+    color:#333;
+    font-size: 17px;
+
+}
+.install-path{
+background: #333;
+color: #fff;
+padding: 10px;
+}
+.alert{
+    background-color: #5CB85C;
+
+    padding: 10px 20px;
+font-weight: bold;
+margin: 15px 0;
+}
+.alert p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.alert i{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 5px;
+}
+.install{
+    display: inline-block;
+padding: 10px 30px;
+cursor: pointer;
+background: #f5576c;
+color: #fff;
+border: none;
+border-radius: 5px;
+margin-top: 5px;
+margin-bottom: 20px;
+}
 @media (max-width:1030px){
     .lan-card-container{
         flex-direction: column;
